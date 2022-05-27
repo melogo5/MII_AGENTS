@@ -4,21 +4,12 @@ import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
 import jade.core.behaviours.TickerBehaviour;
-import jade.domain.DFService;
-import jade.domain.FIPAAgentManagement.DFAgentDescription;
-import jade.domain.FIPAAgentManagement.ServiceDescription;
-import jade.domain.FIPAException;
 import jade.lang.acl.ACLMessage;
-import jade.util.Logger;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-/**
- * Created by Admin on 17.04.2018.
- */
 public class CargoAgent extends Agent {
 
     String currentStation;
@@ -276,7 +267,7 @@ public class CargoAgent extends Agent {
         String t = arrivalTime.replace(":","-");
         String dep = departureTime.replace(":","-");
 
-        msg.setContent(text + ":" + currentStation + ":" + destination + ":" + t + ":" + dep);
+        msg.setContent(text + ":" + currentStation + ":" + destination + ":" + dep + ":" + t);
         //msg.addReceiver(new AID(reciever,false));
 
         //msg.addReceiver(new AID("Disp" + Address.address));

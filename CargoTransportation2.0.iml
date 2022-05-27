@@ -11,7 +11,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../JADE-all-4.5.0/jade.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/JADE-all-4.5.0/jade.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

@@ -1,4 +1,4 @@
-echo "Launching Server with a DispatcherAgent"
+echo "Launching server with a DispatcherAgent"
 echo "* * * * * * * * * * * * * * *"
 echo "Stations = 3"
 echo "* * * * * * * * * * * * * * *"

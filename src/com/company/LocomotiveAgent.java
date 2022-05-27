@@ -12,9 +12,6 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Iterator;
 
-/**
- * Created by Admin on 19.04.2018.
- */
 public class LocomotiveAgent extends Agent {
 
     String dispatcherName = "Disp";
@@ -924,7 +921,6 @@ public class LocomotiveAgent extends Agent {
         String text = "Локомотив свободен для резервирования";
 
         ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-        //msg.setContent(text + ":" + locName + ":" + fromStation + ":" + toStation + ":" + cargo + ":" + wagon);
         msg.setContent(text + ":" + locName + ":" + toStation + ":" + fromStation + ":" + cargo + ":" + wagon);
         msg.addReceiver(new AID(wagon,AID.ISLOCALNAME));
 

@@ -8,14 +8,10 @@ import jade.lang.acl.ACLMessage;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.lang.reflect.Array;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * Created by Admin on 18.04.2018.
- */
 public class DispatcherAgent extends Agent {
     static String name;
 
@@ -37,10 +33,6 @@ public class DispatcherAgent extends Agent {
     String startTimeLoc;
     String startTimeGlob;
     int modificator = 300;
-
-    //String pathToWagons = "E:\\CargoTransportation\\Schedule\\WagonsSchedule.txt";
-    //String pathToCargos = "E:\\CargoTransportation\\Schedule\\CargosSchedule.txt";
-    //String pathToLocomotives = "E:\\CargoTransportation\\Schedule\\LocomotivesSchedule.txt";
 
     String pathToWagons = "__WagonsSchedule.txt";
     String pathToCargos = "__CargosSchedule.txt";

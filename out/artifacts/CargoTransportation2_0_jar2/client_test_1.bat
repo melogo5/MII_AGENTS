@@ -1,4 +1,4 @@
-echo "Launching Client with StationAgents, LocomotiveAgents, Wagons, CargoAgents"
+echo "Launching client with StationAgents, LocomotiveAgents, Wagons, CargoAgents"
 echo "* * * * * * * * * * * * * * *"
 echo "Stations = 3"
 echo "Locomotives = 1"

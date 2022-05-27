@@ -3,9 +3,6 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Created by Admin on 21.04.2018.
- */
 public class FindWay {
     static ArrayList<Integer> dijkstra(int start, int end, int vNum, int [][] graph) {
         int INF = Integer.MAX_VALUE / 2;

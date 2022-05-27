@@ -3,16 +3,9 @@ package com.company;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
-import jade.core.behaviours.TickerBehaviour;
 import jade.lang.acl.ACLMessage;
-
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 
-/**
- * Created by Admin on 18.04.2018.
- */
 public class StationAgent extends Agent {
 
     ArrayList<String> freeWagons = new ArrayList();
